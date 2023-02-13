@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Lory</title>
+  <meta content="backend developer, shop owner, coin bank" name="keywords">
+  <meta content="Backend Developer" name="description">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap-icons.css">
+  <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="assets/lib/hover/hover.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+  <div id="header" class="home">
+    <div class="container">	
+      <div class="header-content">
+        <h1>I'm <span class="typed"></span></h1>
+        <p>backend developer, shop owner.</p>
+        <ul class="list-unstyled list-social">
+		  <li><a href="https://github.com/wheresmydignity" target="_blank"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://discord.gg/coinbank" target="_blank"><i class="bi bi-discord"></i></a></li>
+          <li><a href="mailto:mail@loryy.dev" target="_blank"><i class="bi bi-envelope-fill"></i></a></li>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/lib/p5/p5.min.js"></script>
+<script src="assets/lib/vanta/vanta.trunk.min.js"></script>
+<script>
+VANTA.TRUNK({
+  el: "#header",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x458498,
+  chaos: 1.50
+})
+</script>
+
+  <script src="assets/lib/jquery/jquery.min.js"></script>
+  <script src="assets/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/lib/typed/typed.js"></script>
+  <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="assets/lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="assets/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
